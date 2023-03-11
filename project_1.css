@@ -42,13 +42,13 @@ body {
   border: 1px solid white;
 
   font-size: 30px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .tile-clicked {
-  background: darkgray;
+  background: darkgrey;
 }
 
 .x1 {
@@ -82,4 +82,12 @@ color: darkgoldenrod;
 
 .x8 {
   color: gold;
+}
+
+#flag-button {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  background-color: lightgray;
+  border: none;
 }
